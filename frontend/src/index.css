@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+a.active hr{
+  display: visible;
+}
+
+@layer utilities{
+  .c-space{
+    @apply  px-4 sm:px-[5vw] md:px-[7vw] lg:px-[9vw];
+    
+  }
+  .line{
+    @apply  w-8 sm:w-12 h-[1px] sm:h-[2px] bg-gray-700;
+  }
+
+}
+
+
