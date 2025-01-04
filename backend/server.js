@@ -28,7 +28,7 @@ app.use('/api/cart', cartRouter)
 app.use('/api/order',orderRouter)
 
 app.get('/', (req,res)=>{
-    res.send('Hello World')
+    res.send('api is working')
 })
 
 app.get('/favico.ico' , function(req , res){/*code*/});
