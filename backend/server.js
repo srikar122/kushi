@@ -31,6 +31,8 @@ app.get('/', (req,res)=>{
     res.send('Hello World')
 })
 
+app.get('/favico.ico' , function(req , res){/*code*/});
+
 
 
 
