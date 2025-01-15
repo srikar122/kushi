@@ -17,7 +17,9 @@ connectCLoudinary()
 // middlewares
 
 app.use(express.json({ limit: '50mb' }))
-app.use(cors())
+app.use(cors({
+    origin: 'https://kushi-3bv3.vercel.app'
+  }));
 
 
 // api endpoints
