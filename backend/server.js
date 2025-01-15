@@ -31,7 +31,7 @@ app.get('/', (req,res)=>{
     res.send('api is working')
 })
 
-app.get('/favico.ico' , function(req , res){/*code*/});
+app.all('/favico.ico' , function(req , res){/*code*/});
 
 
 
