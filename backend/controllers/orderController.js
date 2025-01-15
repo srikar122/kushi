@@ -2,7 +2,7 @@
 // placing orders using cod method
 
 import orderModel from "../models/orderModel.js";
-import userModel from "../models/UserModel.js";
+import userModel from "../models/userModel.js";
 import razorpay from 'razorpay'
 
 
